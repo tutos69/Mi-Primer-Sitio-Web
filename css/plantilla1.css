@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 10000px;
+    margin: 20px auto;
+    background: springgreen;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+        "header header header"
+        "section section section"
+        "section1 section1 section1"
+        "section2 section2 section2"
+        "fooder fooder fooder";
+}
+
+.contenedor .header {
+    background: turquoise;
+    color: white;
+    grid-area: header;
+}
+
+
+.contenedor .section {
+    background: white;
+    color: black;
+    grid-area: section;
+}
+
+.contenedor .section1 {
+    background: white;
+    color: black;
+    grid-area: section1;
+}
+
+.contenedor .section2 {
+    background: white;
+    color: black;
+    grid-area: section2;
+}
+
+.contenedor .footer {
+    background: pink;
+    color: black;
+    grid-area: fooder;
+}
