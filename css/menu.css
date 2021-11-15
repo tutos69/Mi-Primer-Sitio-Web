@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Pacifico&family=Road+Rage&family=Yuji+Syuku&display=swap');
+
+
+.header {
+    font-family: 'Pacifico';
+    font-size: 80px;
+}
+
+.header {
+    height: 150px;
+    padding: 20px;
+    background: #019cde;
+    color: white;
+    cursor: default;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    font-family: 'Open';
+    font-size: 20px;
+    float: left;
+    background: #222;
+    color: white;
+    padding: 0 20px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease all;
+}
+
+.menu a:hover {
+    color: white;
+    background: #019cde;
+}
+
+/*fooder*/
+.footer {
+    width: 100%;
+    clear: both;
+    background-color: wheat;
+  }
+.footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: 50px;
+    padding: 45px 0px;
+  }
+  
+  .grupo1 aside img {
+    width: 150px;
+  }
+  
+  .grupo2 {
+    background-color: black;
+    text-align: center;
+  }
+  
+  .grupo2 small {
+    color: white;
+  }  

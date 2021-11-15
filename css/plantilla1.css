@@ -7,46 +7,43 @@
     width: 90%;
     max-width: 10000px;
     margin: 20px auto;
-    background: springgreen;
+    background: whitesmoke;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
         "header header header"
-        "section section section"
+        "menu menu menu"
+        "Slider Slider Slider"
         "section1 section1 section1"
-        "section2 section2 section2"
+        "galeria galeria galeria"
         "fooder fooder fooder";
 }
 
 .contenedor .header {
-    background: turquoise;
-    color: white;
     grid-area: header;
 }
 
+.contenedor .menu{
+    grid-area: menu;
+}
 
-.contenedor .section {
-    background: white;
-    color: black;
-    grid-area: section;
+
+.contenedor .Slider {
+    grid-area: Slider;
 }
 
 .contenedor .section1 {
-    background: white;
-    color: black;
     grid-area: section1;
 }
 
-.contenedor .section2 {
-    background: white;
+.contenedor .galeria {
+   
     color: black;
-    grid-area: section2;
+    grid-area: galeria;
 }
 
 .contenedor .footer {
-    background: pink;
-    color: black;
     grid-area: fooder;
 }
