@@ -62,26 +62,27 @@
     width: 100%;
     clear: both;
     background-color: wheat;
-  }
+}
+
 .footer .grupo1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid: 50px;
     padding: 45px 0px;
-  }
-  
-  .grupo1 aside img {
+}
+
+.grupo1 aside img {
     width: 150px;
-  }
-  
-  .grupo2 {
+}
+
+.grupo2 {
     background-color: black;
     text-align: center;
-  }
-  
-  .grupo2 small {
+}
+
+.grupo2 small {
     color: white;
-  }  
+}
