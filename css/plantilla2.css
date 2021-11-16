@@ -7,61 +7,46 @@
     width: 90%;
     max-width: 10000px;
     margin: 20px auto;
-    background: springgreen;
+
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
-        "header header header"
-        "nav section aside"
-        "nav section1 aside"
-        "fooder fooder fooder";
+        "header header header header header header"
+        "menu menu menu menu menu menu"
+        "nav descripcion1 descripcion1 descripcion1 descripcion1 aside"
+        "nav descripcion2 descripcion2 descripcion2 descripcion2 aside"
+        "fooder fooder fooder fooder fooder fooder";
 }
 
-.contenedor .header,
-.contenedor .nav,
-.contenedor .section,
-.contenedor .section1,
-.contenedor .aside,
-.contenedor .footer {
-    background: yellow;
-    padding: 20px;
-    border: 4px;
-}
+
 
 .contenedor .header {
-    background: turquoise;
-    color: white;
     grid-area: header;
 }
 
+.contenedor .menu{
+grid-area: menu;
+}
+
 .contenedor .nav {
-    background: black;
-    color: white;
     grid-area: nav;
 }
 
-.contenedor .section {
-    background: white;
-    color: black;
-    grid-area: section;
+.contenedor .descripcion1 {
+    grid-area: descripcion1;
 }
 
-.contenedor .section1 {
-    background: white;
-    color: black;
-    grid-area: section1;
+.contenedor .descripcion2 {
+    grid-area: descripcion2;
 }
 
 .contenedor .aside {
-    background: yellow;
-    color: black;
+
     grid-area: aside;
 }
 
 .contenedor .footer {
-    background: pink;
-    color: black;
+   
     grid-area: fooder;
 }

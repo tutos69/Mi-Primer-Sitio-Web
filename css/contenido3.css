@@ -1,0 +1,89 @@
+/*Descripcion producto Section 1*/
+.descripcion1 {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.descripcion1 h2 {
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: center;
+    font-size: 40px;
+}
+
+.descripcion1 img {
+    width: 100%;
+    display: grid;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.descripcion1 h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.descripcion1 p {
+    font-size: 13px;
+    text-align: center;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+/*Descripcion producto Section */
+
+.descripcion2 {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.descripcion2 h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.descripcion2 p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.descripcion2 img {
+    width: 100%;
+    background: black;
+}
+
+/*Aside publicidad*/
+
+.aside {
+    background: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1);
+}
+
+.aside img {
+    width: 100%;
+}
+
+.aside h4 {
+    text-align: center;
+    font-size: 15px;
+    margin: 2%;
+}
+
+.aside p {
+    text-align: center;
+    font-size: 10px;
+    margin: 3%;
+}
+
+/*A
